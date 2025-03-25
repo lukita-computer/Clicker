@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Clicker</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="icon" href="licon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Jogo Clicker</h1>
+    </header>
+
+    <section class="game">
+        <p id="score">Pontos: 0</p>
+        <button id="clickButton">Clique Aqui!</button>
+        <p id="message"></p>
+        <button id="toggleMusic">Tocar Música</button>
+        <img id="bonSprite" src="bon-parado.png" width="64" height="64" alt="Bon">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Meu Site.</p>
+        <a href="https://www.instagram.com/lukita_oxente/" target="_blank">
+            <button id="instagramButton">Meu Instagram</button>
+        </a>
+    </footer>
+
+    <!-- Música de fundo -->
+    <audio id="backgroundMusic" loop>
+        <source src="musica-fundo.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Som de clique -->
+    <audio id="clickSound">
+        <source src="click-sound.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Som de meta -->
+    <audio id="metaSound">
+        <source src="meta.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

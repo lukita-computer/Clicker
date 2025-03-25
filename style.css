@@ -1,0 +1,16 @@
+/* Estilos para o botão do Instagram */
+#instagramButton {
+    background-color: #C13584; /* Cor do Instagram */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#instagramButton:hover {
+    background-color: #9b2d6e; /* Cor de hover */
+}
